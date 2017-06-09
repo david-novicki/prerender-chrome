@@ -1,0 +1,33 @@
+{
+  "name": "prerender-chrome",
+  "version": "1.0.0",
+  "description": "Prerender service with caching built around headless Chrome",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supercycle91/prerender-chrome.git"
+  },
+  "keywords": [
+    "prerender",
+    "chrome",
+    "js",
+    "spa"
+  ],
+  "author": "David Novicki <supercycle91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supercycle91/prerender-chrome/issues"
+  },
+  "homepage": "https://github.com/supercycle91/prerender-chrome#readme",
+  "dependencies": {
+    "chrome-remote-interface": "^0.23.2",
+    "express": "^4.15.3",
+    "node-schedule": "^1.2.3",
+    "redis": "^2.7.1",
+    "url": "^0.11.0"
+  }
+}
