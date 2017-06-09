@@ -13,6 +13,8 @@ client.on('connect', function () {
     console.log('connected to redis');
 });
 
+app.use(middleware.whitelist);
+
 app.get('*', middleware.cache, (req, res) => {
     const url = util.getUrl(req);
     console.log(url);
