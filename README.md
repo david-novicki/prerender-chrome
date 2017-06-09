@@ -19,6 +19,8 @@ CACHE_INTERVAL=5 ALLOWED_DOMAINS=https://www.google.com npm start
 - PORT (defaults to 3000)
 - ALLOWED_DOMAINS (comma delimited string of allowed domains **MANDATORY**)
 
+**THIS PROJECT DOES NOT WORK WITH LOCALHOST**
+
 MIT License
 
 Copyright (c) 2017 David Novicki
